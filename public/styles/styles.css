@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Poppins:wght@300;500;900&display=swap');
+
+:root{
+    --COLOR-GRAY: #2D353D;
+    --COLOR-WHITE: #fff;
+}
+
+body{
+    background-color: var(--COLOR-GRAY);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--COLOR-WHITE);
+}
+
+.title{
+    display: flex;
+    color: var(--COLOR-WHITE);
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    width: 100%
+}
+
+header h1{
+    font-weight: 600;
+    margin-top: 25px;
+    width: 60%;
+}
+
+header p{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.logo{
+    margin: 0 25px;
+}
+.logo.americanas{
+    height: 16px;
+}
+.logo.delivery{
+    height: 26px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    width: 90%;
+    max-width: 500px;
+    color: var(--COLOR-WHITE);
+    margin-top: 20px;
+}
+
+.form p{
+    font-size: .8rem;
+    padding: 5px 5px 0;
+}
+
+.table{
+    background-color: var(--COLOR-WHITE);
+    width: 90%;
+    max-width: 800px;
+    border-radius:5px;
+    font-size: .8rem;
+    margin-top: 15px;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 820px) {
+    .title{
+        justify-content: flex-start;
+    }
+    .table{
+        font-size: 1.2rem;
+        margin-top: 25px;
+    }
+    
+}
