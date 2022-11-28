@@ -7,7 +7,8 @@ function view(data, moedas, tabela) {
         html.push(tabelaHtml(moedaData));
     });
 
-    tabela.innerHTML = html;
+    linhasHtml = html.join("");
+    tabela.innerHTML = linhasHtml;
 }
 
 function tabelaHtml(moedaData) {

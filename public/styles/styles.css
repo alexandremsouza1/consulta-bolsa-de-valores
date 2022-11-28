@@ -76,7 +76,7 @@ main {
 .table {
     background-color: var(--COLOR-WHITE);
     width: 90%;
-    max-width: 800px;
+    max-width: 1000px;
     border-radius: 5px;
     font-size: 0.8rem;
     margin-top: 15px;
