@@ -30,25 +30,26 @@
                     src="./public/images/b3-icon.png"
                     alt="bolsa icone"
                 />
-                <h1>Consulta Títulos B3</h1>
+                <h1>Cotação de Moedas</h1>
             </div>
         </header>
 
         <main>
-            <form id="buscaPluForm">
+            <form id="buscaTituloForm">
                 <div class="mb-3 form">
-                    <label for="plus" class="form-label">Títulos:</label>
+                    <label for="titulos" class="form-label">Moeda(s):</label>
                     <textarea
                         type="number"
+                        name="titulos"
                         class="form-control"
-                        id="plu"
+                        id="titulos"
                         rows="3"
                         placeholder="Digite somente números e vírgulas"
                     ></textarea>
                     <div class="subtitle">
                         <p>
                             Para consultar mais de um item, utilize vírgula ","
-                            para separar os títulos
+                            para separar as moedas
                         </p>
                         <div>
                             <input
@@ -99,7 +100,9 @@
             </p>
         </footer>
 
-        <script src="./src/buscaPlu.js"></script>
+        <script src="./src/buscaTitulos.js"></script>
+        <script src="./src/consultaApi.js"></script>
+        <script src="./src/view.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
             integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
