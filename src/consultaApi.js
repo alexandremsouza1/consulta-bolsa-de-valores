@@ -1,4 +1,4 @@
-async function consultaTitulos(array) {
+async function consultaApi(array) {
     let listaDeMoedas = [];
 
     for (moeda in array) {
